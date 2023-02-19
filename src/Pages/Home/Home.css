@@ -1,0 +1,122 @@
+.h-container{
+    background-color: #EE6461;
+    /* width: 100%; */
+   height: 120vh;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.h-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.h-left{
+    width: 85%;   
+}
+
+.h-title{
+    font-size: 3.8rem;
+    color: #07000c;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.h-header{
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-t{
+    color: #07000c;
+    font-size: 3rem;
+    font-weight: 500;
+    width: 30%;
+    padding-left: 2rem;
+}
+
+.header-nav{
+    width: 60%;
+}
+
+.h-nav{
+    background-color: #07000c;
+    height: 60px;
+    width: 90%;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 1rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.header-reg{
+    width: 30%;
+}
+.header-reg button{
+    background-color: transparent;
+    border: 2px solid #07000c;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.home-img{
+    height: 50vh;
+    margin-left: 2rem;
+    width: 70%;
+    transform: translateY(-30%);
+}
+
+.home-logo{
+    position: relative;
+    z-index: 10;
+    transform: translate(45vw, -15%);
+    width: 14rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 2px solid #07000c;
+}
+
+.h-right2 {
+    width: 10%;
+    padding-top: 40vh;
+    margin-left: -5%;
+  }
+  
+  
+  
+  .h-right2-c {
+    font-size: 12rem;
+    transform: rotate(270deg);
+    color: #07000c;
+    font-weight: 700;
+  }
+
+  .subt{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    transform: translate(10%,-10vh);
+  }
+  

@@ -1,0 +1,91 @@
+.about-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #07000C;
+    overflow-x: hidden;
+}
+
+.about-hc{
+    display: flex;
+    flex-direction: row;
+}
+.about-header{
+    color: white;
+    font-size: 3rem;
+    border-bottom: 2px solid orange;
+    font-weight: 600;
+    padding: 1rem;
+    padding-left: 2rem;
+    width: 90vw;
+    
+    
+}
+
+.about-box{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.about-content{
+    color: white;
+    font-size: 1.3rem;
+}
+.about-left{
+    width: 40%;
+    display: inline-block;
+}
+
+.about-right{
+    width: 50%;
+    padding-left: 4rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.about-right2{
+width: 10%;
+padding-top: 42vh;
+}
+
+.about-img{
+    height: 70vh;
+}
+
+.about-right2-c{
+    font-size: 9rem;
+    transform:rotate(270deg);
+    color: white;
+    font-weight: 700;
+}
+
+.about-folders{
+    height: 40vh;
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-folders img{
+    height: 25vh;
+    margin-top: 5vh;
+}
+
+.about-quote{
+    font-size: 2rem;
+    line-height: 150%;
+    color: white;
+    width: 80%;
+    font-weight: 700;
+}
+
+.about-quote span{
+    font-weight: 500;
+    font-size: 1.2rem;
+    transform: translateY(-100%);
+}
+
+.about-logo{
+    width: 5rem;
+    margin-top: 2rem;
+}
